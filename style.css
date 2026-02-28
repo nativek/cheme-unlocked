@@ -664,3 +664,287 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+/* ===== ABOUT PAGE STYLES ===== */
+
+/* About Hero */
+.about-hero {
+    background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%);
+    min-height: 300px;
+}
+
+/* About Sections */
+.about-section {
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about-section .section-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+/* Mission Content */
+.mission-content {
+    max-width: 900px;
+}
+
+.lead-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #16a085;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.mission-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin-bottom: 1rem;
+}
+
+/* Founder Story */
+.founder-section-about {
+    background: #f8f9fa;
+}
+
+.founder-story {
+    max-width: 900px;
+}
+
+.founder-intro, .founder-why, .founder-vision {
+    margin-bottom: 3rem;
+}
+
+.founder-story h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.2rem;
+}
+
+.founder-story p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin-bottom: 1rem;
+}
+
+.founder-quote-large {
+    background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-left: 5px solid #138d75;
+    margin: 3rem 0;
+}
+
+.founder-quote-large p {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* Values Section */
+.values-section {
+    background: white;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.value-card {
+    background: #f8f9fa;
+    padding: 2.5rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    border-color: #16a085;
+    box-shadow: 0 10px 25px rgba(22, 160, 133, 0.1);
+}
+
+.value-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.value-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.value-card p {
+    color: #7f8c8d;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Connect Section */
+.connect-section {
+    background: #ecf0f1;
+    text-align: center;
+}
+
+.connect-intro {
+    font-size: 1.2rem;
+    color: #34495e;
+    max-width: 800px;
+    margin: 1.5rem auto 3rem;
+    line-height: 1.8;
+}
+
+/* Social Links Large Cards */
+.social-links-large {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto 4rem;
+}
+
+.social-link-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.social-link-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.social-link-card.linkedin:hover {
+    border-top: 4px solid #0077b5;
+}
+
+.social-link-card.twitter:hover {
+    border-top: 4px solid #1da1f2;
+}
+
+.social-link-card.github:hover {
+    border-top: 4px solid #333;
+}
+
+.social-link-card .social-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.social-link-card h3 {
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+}
+
+.social-link-card p {
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.link-arrow {
+    color: #16a085;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    transition: all 0.2s;
+}
+
+.social-link-card:hover .link-arrow {
+    transform: translateX(5px);
+}
+
+/* CTA Box */
+.cta-box {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.cta-box h3 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.cta-box p {
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.cta-box .btn-primary {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+}
+
+/* Social Links Footer */
+.social-links-footer {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-links-footer a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+
+.social-links-footer a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Active Navigation Link */
+.nav-links a.active {
+    color: #16a085;
+    font-weight: 600;
+}
+
+/* Responsive About Page */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 3rem 1.5rem;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-links-large {
+        grid-template-columns: 1fr;
+    }
+    
+    .founder-quote-large {
+        padding: 2rem;
+    }
+    
+    .founder-quote-large p {
+        font-size: 1.2rem;
+    }
+}
