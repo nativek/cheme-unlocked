@@ -4,51 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ChemE Unlocked | Free Chemical Engineering Resources for Students Worldwide</title>
-  <meta name="description" content="The free chemical engineering knowledge hub helping students worldwide master fundamentals, unit operations, reaction engineering, and career skills.">
-  
+  <meta name="description" content="Free chemical engineering study guides, concept breakdowns, and career advice for students worldwide — from fundamentals to advanced topics.">
+
   <!-- Open Graph / Social Media Sharing -->
   <meta property="og:title" content="ChemE Unlocked | Free Chemical Engineering Hub">
   <meta property="og:description" content="Free chemical engineering resources, study guides, and career advice for students worldwide.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nativek.github.io/cheme-unlocked/">
-  
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ChemE Unlocked | Free Chemical Engineering Hub">
   <meta name="twitter:description" content="Master chemical engineering concepts with free resources and guides.">
-  
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <!-- Navigation -->
   <nav>
     <div class="nav-container">
       <a href="index.html" class="logo">ChemE Unlocked</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="#fundamentals">Fundamentals</a></li>
-        <li><a href="#transport">Transport & Unit Ops</a></li>
+        <li><a href="#transport">Transport &amp; Unit Ops</a></li>
         <li><a href="#reaction">Reaction Engineering</a></li>
         <li><a href="#process">Process Design</a></li>
         <li><a href="#ai">AI in ChemE</a></li>
         <li><a href="#career">Career</a></li>
-                        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Hero Section - UPGRADED -->
+  <!-- Hero Section -->
   <section class="hero">
-    <h1>ChemE Unlocked</h1>
-    <p class="hero-subtitle">Master chemical engineering, one concept at a time</p>
-    <p class="hero-description">Free resources, study guides, and career advice for chemical engineering students worldwide — from fundamentals to advanced topics.</p>
-    <!-- Pre-Launch CTA -->
+    <div class="hero-badge">&#127891; Built by a ChemE student, for ChemE students</div>
+    <h1>Stop Struggling with ChemE.<br>Start Actually Getting It.</h1>
+    <p class="hero-subtitle">Free study guides, concept breakdowns &amp; career resources</p>
+    <p class="hero-description">From thermodynamics to process design — explained clearly, with real examples. No paywalls. No sign-ups required.</p>
     <div class="hero-cta">
-      <a href="#join-waitlist" class="btn-primary">Get Notified When We Launch</a>
-      <a href="#explore" class="btn-secondary">Explore Topics ↓</a>
+      <a href="#join-waitlist" class="btn-primary">Get Early Access &#8594;</a>
+      <a href="#explore" class="btn-secondary">Explore Topics &#8595;</a>
     </div>
-    
-    <!-- Global Stats Bar -->
     <div class="stats-bar">
       <div class="stat-item">
         <span class="stat-number">6</span>
@@ -56,144 +56,186 @@
       </div>
       <div class="stat-item">
         <span class="stat-number">100%</span>
-        <span class="stat-label">Free</span>
+        <span class="stat-label">Free Forever</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">🌐</span>
+        <span class="stat-number">&#127760;</span>
         <span class="stat-label">Worldwide Access</span>
       </div>
     </div>
   </section>
 
-  <!-- Mission Statement -->
+  <!-- Mission Section -->
   <section class="mission">
     <div class="container">
       <h2 class="section-title-center">Our Mission</h2>
-      <p class="mission-text">Democratizing chemical engineering education by providing free, high-quality resources to students everywhere. No paywalls. No prerequisites. Just knowledge, unlocked.</p>
+      <p class="mission-text">Democratizing chemical engineering education by providing free, high-quality resources to students everywhere &mdash; whether you&#39;re at a top university or studying on your own. No paywalls. No prerequisites. Just knowledge, unlocked.</p>
     </div>
   </section>
 
-  <!-- Main Content -->
-  <div class="container" id="explore">
-    <!-- Topic Categories Section -->
-    <h2 class="section-title">Explore by Topic</h2>
-    <section class="categories">
-      <div class="category-card" id="fundamentals">
-        <div class="category-header">
-          <span class="category-icon">⚗️</span>
-          <h3>Fundamentals</h3>
+  <!-- Why Section -->
+  <section class="why-section">
+    <div class="container">
+      <h2 class="section-title-center" style="color:#2c3e50;">Why ChemE Unlocked?</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">&#128214;</div>
+          <h3>Actually Clear Explanations</h3>
+          <p>No dense textbook walls of text. Every concept is broken down into plain language with real worked examples.</p>
         </div>
-        <p>Engineering math, thermodynamics, physical chemistry, and mass/energy balances — the bedrock of all ChemE work.</p>
+        <div class="why-card">
+          <div class="why-icon">&#127758;</div>
+          <h3>Built for Global Students</h3>
+          <p>Whether you&#39;re at a top university or a smaller school with fewer resources &mdash; this is for you, fully free.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">&#128640;</div>
+          <h3>Covers the Full Curriculum</h3>
+          <p>From year-one fundamentals to final-year process design &mdash; everything a ChemE student needs in one place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics Section -->
+  <div class="container" id="explore">
+    <h2 class="section-title">Explore by Topic</h2>
+    <div class="categories">
+
+      <div class="category-card" id="fundamentals">
+        <div class="category-icon">&#9879;&#65039;</div>
+        <h3>Fundamentals</h3>
+        <p>Engineering math, thermodynamics, physical chemistry, and mass/energy balances &mdash; the bedrock of all ChemE work.</p>
         <div class="category-footer">
           <span class="coming-soon-badge">Launching March 2026</span>
-          <a href="#join-waitlist" class="category-link">Get Notified →</a>
+          <a href="#join-waitlist" class="category-link">Get Notified &#8594;</a>
         </div>
       </div>
 
       <div class="category-card" id="transport">
-        <div class="category-header">
-          <span class="category-icon">💧</span>
-          <h3>Transport & Unit Operations</h3>
-        </div>
+        <div class="category-icon">&#128167;</div>
+        <h3>Transport &amp; Unit Operations</h3>
         <p>Fluid mechanics, heat transfer, mass transfer, distillation, absorption, extraction, and drying operations.</p>
         <div class="category-footer">
           <span class="coming-soon-badge">Launching March 2026</span>
-          <a href="#join-waitlist" class="category-link">Get Notified →</a>
+          <a href="#join-waitlist" class="category-link">Get Notified &#8594;</a>
         </div>
       </div>
 
       <div class="category-card" id="reaction">
-        <div class="category-header">
-          <span class="category-icon">🔬</span>
-          <h3>Reaction Engineering</h3>
-        </div>
+        <div class="category-icon">&#128302;</div>
+        <h3>Reaction Engineering</h3>
         <p>Reaction kinetics, reactor design (CSTR, PFR, PBR), catalysis, and conversion-selectivity analysis.</p>
         <div class="category-footer">
           <span class="coming-soon-badge">Launching March 2026</span>
-          <a href="#join-waitlist" class="category-link">Get Notified →</a>
+          <a href="#join-waitlist" class="category-link">Get Notified &#8594;</a>
         </div>
       </div>
 
       <div class="category-card" id="process">
-        <div class="category-header">
-          <span class="category-icon">🏭</span>
-          <h3>Process Design</h3>
-        </div>
-        <p>P&IDs, process simulation, safety analysis, economic evaluation, and plant optimization.</p>
+        <div class="category-icon">&#127981;</div>
+        <h3>Process Design</h3>
+        <p>P&amp;IDs, process simulation, safety analysis, economic evaluation, and plant optimization.</p>
         <div class="category-footer">
           <span class="coming-soon-badge">Launching March 2026</span>
-          <a href="#join-waitlist" class="category-link">Get Notified →</a>
+          <a href="#join-waitlist" class="category-link">Get Notified &#8594;</a>
         </div>
       </div>
 
       <div class="category-card" id="ai">
-        <div class="category-header">
-          <span class="category-icon">🤖</span>
-          <h3>AI in ChemE</h3>
-        </div>
+        <div class="category-icon">&#129302;</div>
+        <h3>AI in ChemE</h3>
         <p>Machine learning, digital twins, sustainable engineering, and AI-driven process optimization.</p>
         <div class="category-footer">
           <span class="coming-soon-badge">Launching March 2026</span>
-          <a href="#join-waitlist" class="category-link">Get Notified →</a>
+          <a href="#join-waitlist" class="category-link">Get Notified &#8594;</a>
         </div>
       </div>
 
       <div class="category-card" id="career">
-        <div class="category-header">
-          <span class="category-icon">💼</span>
-          <h3>Career Development</h3>
-        </div>
-        <p>CV tips, software skills, scholarships, job search strategies, and career resources.</p>
+        <div class="category-icon">&#128188;</div>
+        <h3>Career Development</h3>
+        <p>CV tips, software skills, scholarships, job search strategies, and career resources for ChemE graduates.</p>
         <div class="category-footer">
           <span class="coming-soon-badge">Launching March 2026</span>
-          <a href="#join-waitlist" class="category-link">Get Notified →</a>
+          <a href="#join-waitlist" class="category-link">Get Notified &#8594;</a>
         </div>
       </div>
-    </section>
 
-    <!-- Pre-Launch Engagement Section -->
-    <section class="pre-launch-section" id="join-waitlist">
-      <div class="pre-launch-box">
-        <h2>🚀 Be First to Access Premium Content</h2>
-        <p>Join the waitlist to get notified when we launch in <strong>March 2026</strong>. Plus, get exclusive early access to our first study guides.</p>
-        
-        <!-- Waitlist Form -->
-        <form class="waitlist-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <input type="email" name="email" placeholder="Enter your email" required class="email-input">
-          <button type="submit" class="btn-submit">Join Waitlist</button>
-        </form>
-        
-        <p class="privacy-note">🔒 We respect your privacy. Unsubscribe anytime. No spam.</p>
-      </div>
-    </section>
-
-175176
-    
-    172
-    
+    </div>
   </div>
+
+  <!-- Waitlist Section -->
+  <section class="pre-launch-section" id="join-waitlist">
+    <div class="pre-launch-box">
+      <h2>&#128640; Be the First to Get Free Study Guides</h2>
+      <p>Join the waitlist and get notified the moment we launch in <strong>March 2026</strong>. Early subscribers get exclusive first access to our study guides &mdash; completely free.</p>
+      <form class="waitlist-form" onsubmit="handleWaitlist(event)">
+        <input type="email" name="email" placeholder="Enter your email" required class="email-input" aria-label="Enter your email">
+        <button type="submit" class="btn-submit">Join Waitlist</button>
+      </form>
+      <p class="privacy-note">&#128274; We respect your privacy. Unsubscribe anytime. No spam.</p>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
     <div class="footer-content">
       <div class="footer-col">
         <h4>ChemE Unlocked</h4>
-        <p>Free chemical engineering resources for students worldwide.</p>
+        <p style="color:rgba(255,255,255,0.7);font-size:0.95rem;line-height:1.6;">Free chemical engineering resources for students worldwide.</p>
       </div>
       <div class="footer-col">
         <h4>Quick Links</h4>
         <ul class="footer-links">
           <li><a href="#explore">Explore Topics</a></li>
-                              <li><a href="about.html">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#join-waitlist">Join Waitlist</a></li>
           <li><a href="HOW-TO-ADD-POSTS.md">Contribute</a></li>
         </ul>
       </div>
-      
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 ChemE Unlocked | Built with passion for learning | <a href="https://github.com/nativek/cheme-unlocked" target="_blank">Open Source</a></p>
-    </div>
+    <p style="border-top:1px solid rgba(255,255,255,0.15);padding-top:1.5rem;opacity:0.7;">&copy; 2026 ChemE Unlocked &mdash; Built with passion for learning &mdash; <a href="https://github.com/nativek/cheme-unlocked" style="color:rgba(255,255,255,0.8);">Open Source</a></p>
   </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id], div[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 100) current = section.id;
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+      });
+    });
+
+    // Waitlist form handler
+    function handleWaitlist(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.btn-submit');
+      const input = e.target.querySelector('.email-input');
+      btn.textContent = '\u2713 You\'re on the list!';
+      btn.style.background = '#27ae60';
+      input.value = '';
+      input.disabled = true;
+      btn.disabled = true;
+    }
+  </script>
+
 </body>
 </html>
